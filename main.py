@@ -11,7 +11,7 @@ while yes=="y":
             elif int(score) > num:
                 print("\nbetter luck next time !",num)
             else:
-                print("\nyou win :) \n","your new score :- "num,"\n")
+                print("\nyou win :) \nyour new score :- ",num,"\n")
                 with open("heigh.txt","w") as new:
                     new.write(str(num))
         yes=input("\nwant to play again y/n :- ")
